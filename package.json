@@ -1,0 +1,20 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "author": "Mithicher Baro",
+  "description": "Simple file structure for Tailwind projects",
+  "license": "MIT",
+  "main": "index.js",
+  "packages": {},
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.4",
+    "tailwindcss": "^3.0.24"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css --minify",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  }
+}

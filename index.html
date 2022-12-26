@@ -1,0 +1,365 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+</head>
+<body class="font-sans">
+    <div class="flex flex-col lg:flex-row h-screen overflow-hidden">
+      <div class="w-72 bg-white fixed top-0 bottom-0 border-r shadow-sm">
+        <div class="flex flex-col h-full">
+          <div class="h-20 py-4 px-6 flex items-center space-x-4">
+            <div class="h-6 w-40 text-xl font-semibold text-slate-800">ABCD Inc.</div>
+          </div>
+          <div class="flex-1 p-4 space-y-1">
+              <div class="mb-4">
+                <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                 </svg>
+                 <span class="group-hover:text-indigo-600">Home</span>              
+                </a>
+   
+                <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                </svg>                
+                 <span class="group-hover:text-indigo-600">Users</span>              
+                </a>
+   
+                <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                 </svg>
+                 <span class="group-hover:text-indigo-600">Statistics</span>              
+                </a>
+   
+                <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
+                 </svg>
+                 <span class="group-hover:text-indigo-600">Components</span>              
+                </a>
+   
+                <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />          
+                 </svg>
+                 <span class="group-hover:text-indigo-600">Empty States</span>              
+                </a>
+              </div>
+             
+             <div class="pt-4 border-t px-2 text-xs uppercase tracking-wider text-slate-400 font-semibold">Settings</div>
+             <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+              </svg>
+              <span class="group-hover:text-indigo-600">Help &amp; Support</span>              
+             </a>
+             <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+              </svg>
+              <span class="group-hover:text-indigo-600">Credits</span>              
+             </a>
+          </div>
+          <div class="p-4">
+            <div class="flex items-center">
+              <div class="h-12 w-12 rounded-full bg-slate-200 shrink-0 overflow-hidden">
+                <img src="https://avatars.dicebear.com/api/initials/Winter-Doe.svg?&width=48&height=48" alt="" loading="lazy" class="object-fit">
+              </div>
+              <div class="flex-1 px-2 overflow-hidden">
+                <div class="text-sm font-medium truncate text-slate-800">Winter Doe</div>
+                <div class="text-xs text-slate-600 truncate">winter@example.com</div>
+              </div>
+              <div class="w-10 text-xs shrink-0">
+                <a href="#" class="hover:underline text-slate-700">Logout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="md:ml-80 flex-1 p-4 overflow-y-auto overflow-x-hidden">
+        <div class="max-w-7xl mx-auto">
+          
+          <!-- Page Header -->
+          <div class="py-5 border-b">
+              <a href="#" class="text-slate-500 inline-flex items-center mb-1.5">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 w-5 h-5 text-slate-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+                </svg>Back
+              </a>
+
+              <!-- Page Header -->
+              <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+                <h2 class="text-slate-800 text-2xl font-semibold">Page Title</h2>
+
+                <div>
+                  <button class="focus:outline-none focus:ring focus:ring-slate-300 inline-flex items-center px-4 py-2 bg-slate-800 text-white hover:bg-slate-700 transition-all rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-white w-5 h-5 mr-1 -ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                  </svg>Create page</button>
+                </div>
+              </div>
+              <!-- ./Page Header -->
+
+          </div>
+          <!-- ./Page Header -->
+
+          <!-- Alertbox -->
+          <div class="my-10 px-4 py-3 text-slate-700 bg-slate-100 rounded-lg flex items-center space-x-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-slate-600 shrink-0 w-6 h-6 -ml-1">
+              <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 01.67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 11-.671-1.34l.041-.022zM12 9a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />
+            </svg>
+
+            <div>
+              <strong class="font-semibold shrink-0">Notice:</strong>
+              <span>This admin panel is work in progress.</span>
+            </div>
+          </div>
+          <!-- ./Alertbox -->
+
+          <!-- Profile -->
+          <div class="flex justify-between items-center mb-10">
+            <div class="flex-1">
+              <div class="flex items-center space-x-4">
+                <div class="w-20 h-20 bg-gray-200 rounded-full shrink-0 overflow-hidden">
+                  <img src="https://avatars.dicebear.com/api/initials/Winter-Doe.svg?&width=80&height=80" alt="" loading="lazy" class="object-fit">
+                </div>
+                <div>
+                  <div class="flex items-center space-x-2">
+                    <h2 class="font-semibold text-2xl tracking-tight text-slate-800">Winter Doe</h2>
+                    <span class="bg-green-600 text-white rounded px-2 py-1 text-xs uppercase tracking-wider font-medium">Active</span>
+                  </div>
+                  <p class="font-medium text-slate-600 leading-none">@winterdoe</p>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-30">
+              <button class="focus:outline-none focus:ring focus:ring-slate-300 inline-flex items-center px-4 py-2 bg-white border shadow-sm text-slate-700 hover:bg-slate-100 transition-all rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-slate-600 w-5 h-5 -ml-1 shrink-0 mr-1">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" />
+              </svg>Edit Profile</button>
+            </div>
+          </div>
+          <!-- ./Profile -->
+
+          <!-- Stats cards -->
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div class="rounded-lg shadow-sm border bg-white p-6">
+              <p class="font-medium text-slate-700 mb-4">Subscribers</p>
+              <h2 class="font-semibold text-5xl text-slate-800">256</h2>
+            </div>
+            <div class="rounded-lg shadow-sm border bg-white p-6">
+              <p class="font-medium text-slate-700 mb-4">Avg. Open rate</p>
+              <h2 class="font-semibold text-5xl text-slate-800">128</h2>
+            </div>
+            <div class="rounded-lg shadow-sm border bg-white p-6">
+              <p class="font-medium text-slate-700 mb-4">Avg. Click rate</p>
+              <h2 class="font-semibold text-5xl text-slate-800">56</h2>
+            </div>
+            <div class="rounded-lg shadow-sm border bg-white p-6">
+              <p class="font-medium text-slate-700 mb-4">Deals</p>
+              <h2 class="font-semibold text-5xl text-slate-800">156</h2>
+            </div>
+          </div>
+          <!-- ./Stats cards -->
+
+          <!-- Card with form -->
+          <div class="rounded-lg shadow-sm border bg-white my-10 overflow-hidden">
+            <div class="p-4">
+              <div class="grid grid-cols-1 md:grid-cols-5 gap-10">
+                <div class="md:col-span-2">
+                  <h2 class="text-slate-800 font-semibold text-lg">Public Profile</h2>
+                  <div class="text-slate-500 text-sm mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet in, aspernatur voluptates eum fugit temporibus eaque quaerat eos nobis, omnis facilis sint dicta aliquid architecto.</div>
+                </div>
+
+                <div class="md:col-span-3">
+
+                  <label class="block font-medium text-sm text-slate-800 mb-1" for="name">Name</label>
+                  <div class="mb-5">
+                    <input id="name" type="text" name="name" class="form-input transition duration-150 ease-in-out px-3 py-2 block w-full text-slate-700 font-sans rounded-md text-left border focus:outline-none focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm placeholder-slate-400 disabled:bg-slate-200 bg-white border-slate-300 shadow-sm w-full">
+
+                    <div class="text-sm mt-2 text-slate-500">Your name appear around Github where you contribute or are mentioned. You can remove it at anytime.</div>
+                  </div>
+
+                  <label class="block font-medium text-sm text-slate-800 mb-1" for="bio">Bio</label>
+                  <div class="mb-5">
+                    <textarea id="bio" type="text" name="bio" class="form-input transition duration-150 ease-in-out px-3 py-2 block w-full text-slate-700 font-sans rounded-md text-left border focus:outline-none focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm placeholder-slate-400 disabled:bg-slate-200 bg-white border-slate-300 shadow-sm w-full"></textarea>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="h-px border-b my-10"></div>
+
+              <div class="grid grid-cols-1 md:grid-cols-5 gap-10">
+                <div class="md:col-span-2">
+                  <h2 class="text-slate-800 font-semibold text-lg">Profile Settings</h2>
+                  <div class="text-slate-500 text-sm mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet in, aspernatur voluptates eum fugit temporibus eaque quaerat eos nobis, omnis facilis sint dicta aliquid architecto.</div>
+                </div>
+                
+                <div class="md:col-span-3">
+
+                  <div class="mb-5">
+                    <div class="flex items-start">
+                        <div class="flex items-center h-5">
+                            <input id="code_vault" name="code_vault" type="checkbox" class="form-radio focus:outline-none rounded border-slate-300 h-4 w-4 text-indigo-600 focus:ring-indigo-500">
+                        </div>
+                        <div class="ml-3 text-sm">
+                            <label for="code_vault" class="text-md font-medium text-slate-800">Display Arctic Code Vault Badge</label>
+                            <p class="text-slate-500">Your name appear around Github where you contribute or are mentioned. You can remove it at anytime.</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="mb-5">
+                    <div class="flex items-start">
+                        <div class="flex items-center h-5">
+                            <input id="private_contributions" name="private_contributions" type="checkbox" class="form-radio focus:outline-none rounded border-slate-300 h-4 w-4 text-indigo-600 focus:ring-indigo-500">
+                        </div>
+                        <div class="ml-3 text-sm">
+                            <label for="private_contributions" class="text-md font-medium text-slate-800">Include private contributions on my profile</label>
+                            <p class="text-slate-500">Your name appear around Github where you contribute or are mentioned. You can remove it at anytime.</p>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="border-t px-4 py-2 flex items-center justify-end bg-slate-50 space-x-3">
+              <button class="focus:outline-none focus:ring focus:ring-slate-300 inline-flex items-center px-4 py-2 bg-white border shadow-sm text-slate-600 hover:bg-slate-100 transition-all rounded-lg">Cancel</button>
+              <button class="my-1.5 focus:outline-none focus:ring focus:ring-slate-300 inline-flex items-center px-4 py-2 bg-slate-800 text-white hover:bg-slate-700 transition-all rounded-lg">Save profile</button>
+            </div>
+          </div>
+          <!-- ./Card with form -->
+
+          <!-- Card with title -->
+          <div class="rounded-lg shadow-sm border bg-white my-10">
+            <div class="border-b px-4 py-2 flex items-center justify-between">
+              <h2 class="text-slate-800 font-semibold text-lg">Components</h2>
+            </div>
+            <div class="p-4">
+              <div class="flex space-x-2 mb-4">
+                <button class="focus:outline-none focus:ring focus:ring-slate-300 inline-flex items-center px-4 py-2 bg-slate-800 text-white hover:bg-slate-700 transition-all rounded-lg">Primary Button</button>
+                <button class="focus:outline-none focus:ring focus:ring-slate-300 inline-flex items-center px-4 py-2 bg-white border shadow-sm text-slate-600 hover:bg-slate-100 transition-all rounded-lg">Secondary Button</button>
+              </div>
+
+              <div class="mb-4 px-4 py-3 text-slate-700 bg-slate-100 rounded-lg flex items-center space-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-slate-600 shrink-0 w-6 h-6 -ml-1">
+                  <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 01.67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 11-.671-1.34l.041-.022zM12 9a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />
+                </svg>
+    
+                <div>
+                  <strong class="font-semibold shrink-0">Notice:</strong>
+                  <span>This admin panel is work in progress.</span>
+                </div>
+              </div>
+    
+              <div class="mb-4 px-4 py-3 text-green-800 bg-green-100 rounded-lg flex items-center space-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-green-700 shrink-0 w-6 h-6 -ml-1">
+                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                </svg>
+    
+                <div>
+                  <strong class="font-semibold shrink-0">Success:</strong>
+                  <span>Your payment is successfully done.</span>
+                </div>
+              </div>
+    
+              <div class="mb-4 px-4 py-3 text-red-800 bg-red-100 rounded-lg flex items-center space-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-red-700 shrink-0 w-6 h-6 -ml-1">
+                  <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zM12 8.25a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V9a.75.75 0 01.75-.75zm0 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />              
+                </svg>
+    
+                <div>
+                  <strong class="font-semibold shrink-0">Error:</strong>
+                  <span>Something went wrong. Try again.</span>
+                </div>
+              </div>
+
+              <div>
+                <a href="#" class="text-indigo-600 hover:underline">Link Style</a>
+              </div>
+            </div>
+          </div>
+          <!-- ./Card with title -->
+          
+          <!-- Empty Card -->
+          <div class="rounded-lg shadow-sm border bg-white px-16 py-24 my-10 relative overflow-hidden">
+            <div class="mx-auto w-32 h-32 rounded-full bg-slate-100 flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-slate-500 w-16 h-16" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M32,208l30.2-90.5a8,8,0,0,1,7.6-5.5H208V88a8,8,0,0,0-8-8H130.7a8.1,8.1,0,0,1-4.8-1.6L98.1,57.6A8.1,8.1,0,0,0,93.3,56H40a8,8,0,0,0-8,8Z" opacity="0.2"></path><path d="M32,208V64a8,8,0,0,1,8-8H93.3a8.1,8.1,0,0,1,4.8,1.6l27.8,20.8a8.1,8.1,0,0,0,4.8,1.6H200a8,8,0,0,1,8,8v24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"></path><path d="M32,208l30.2-90.5a8,8,0,0,1,7.6-5.5H228.9a8,8,0,0,1,7.6,10.5L208,208Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"></path></svg>
+            </div>
+            <h2 class="text-lg text-slate-600 font-medium text-center mt-5">Sorry, no result found!</h2>
+ 
+            <div class="absolute top-0 left-0 w-40 h-24 grid grid-cols-3 -mt-10 -skew-y-12 -ml-px" 
+              x-data="{
+                includesGivenNumber(number) {
+                  return [4, 10, 14, 29, 32, 47, 51, 70, 80, 100].includes(number);
+                }
+              }"
+              x-cloak
+            >
+              <template x-for="i in 600">
+                <div class="h-16 border-b border-r border-slate-400/10" :class="{ 'border-l border-t border-slate-200' : includesGivenNumber(i) }"></div>
+              </template>
+            </div>
+        
+            <div class="absolute top-0 right-0 w-1/2 h-full grid grid-cols-6 -mt-16 -skew-y-12 -mr-px" 
+              x-data="{
+                includesGivenNumber(number) {
+                  return [4, 10, 14, 29, 32, 47, 51, 70, 80, 100].includes(number);
+                }
+              }"
+              x-cloak
+            >
+              <template x-for="i in 600">
+                <div class="h-16 border-b border-r border-slate-400/10" :class="{ 'border-l border-t border-slate-200' : includesGivenNumber(i) }"></div>
+              </template>
+            </div>
+          </div>
+          <!-- ./Empty Card -->
+
+          <!-- Card with title -->
+          <div class="rounded-lg shadow-sm border bg-white my-10">
+            <div class="border-b px-4 py-2 flex items-center justify-between">
+              <h2 class="text-slate-800 font-semibold text-lg">How to install</h2>
+            </div>
+            <div class="p-4">
+              <ol role="list" class="marker:text-indigo-400 list-decimal list-inside space-y-3 text-slate-600">
+                <li>Clone the repository from the Github. <a href="https://github.com/bradtraversy/simple-tailwind-starter" class="text-indigo-600 hover:underline">https://github.com/bradtraversy/simple-tailwind-starter</a></li>
+                <li>Go inside the folder and run <span class="font-mono text-sm text-pink-500">npm install</span>.</li>
+                <li>Then watch for changes in the development by running the following command <span class="font-mono text-sm text-pink-500">npm run watch</span>.</li>
+              </ol>
+            </div>
+          </div>
+          <!-- ./Card with title -->
+
+          <!-- Card with title -->
+          <div class="rounded-lg shadow-sm border bg-white">
+            <div class="border-b px-4 py-2 flex items-center justify-between">
+              <h2 class="text-slate-800 font-semibold text-lg">Credits &amp; Resources</h2>
+            </div>
+            <div class="p-4">
+              <ul role="list" class="marker:text-indigo-400 list-disc list-inside space-y-3 text-slate-600">
+                <li>Tailwind CSS - <a href="https://tailwindcss.com" class="text-indigo-600 hover:underline">https://tailwindcss.com</a></li>
+                <li>Alpine.js - <a href="https://alpinejs.dev" class="text-indigo-600 hover:underline">https://alpinejs.dev</a></li>
+                <li>Simple Tailwind Starter by Brad Traversy - <a href="https://github.com/bradtraversy/simple-tailwind-starter" class="text-indigo-600 hover:underline">https://github.com/bradtraversy/simple-tailwind-starter</a></li>
+                <li>Heroicons - From the makers of Tailwind CSS - <a href="https://heroicons.com" class="text-indigo-600 hover:underline">https://heroicons.com</a></li>
+                <li>Google Font (Hanken Grotesk) - <a href="https://fonts.google.com/specimen/Hanken+Grotesk" class="text-indigo-600 hover:underline">https://fonts.google.com/specimen/Hanken+Grotesk</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- ./Card with title -->
+
+        </div>
+      </div>
+    </div>
+ 
+</body>
+</html>
