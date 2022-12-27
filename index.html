@@ -8,21 +8,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
   <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+   
 </head>
 <body class="font-sans">
     <div class="flex flex-col lg:flex-row h-screen overflow-hidden">
-      <div class="w-72 bg-white fixed top-0 bottom-0 border-r shadow-sm">
+      <div class="w-64 bg-white fixed top-0 bottom-0 border-r shadow-sm">
         <div class="flex flex-col h-full">
           <div class="h-20 py-4 px-6 flex items-center space-x-4">
-            <div class="h-6 w-40 text-xl font-semibold text-slate-800">ABCD Inc.</div>
+            <div class="h-6 w-40 text-xl font-semibold text-slate-800">mTheme.</div>
           </div>
           <div class="flex-1 p-4 space-y-1">
-              <div class="mb-4">
-                <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <a href="index.html" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md bg-slate-100 text-indigo-600 group transition">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-indigo-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                  </svg>
-                 <span class="group-hover:text-indigo-600">Home</span>              
+                 <span class="group-hover:text-indigo-600 text-indigo-600">Home</span>              
                 </a>
    
                 <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
@@ -47,14 +47,20 @@
                  <span class="group-hover:text-indigo-600">Components</span>              
                 </a>
    
-                <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
+                <a href="empty-states.html" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />          
                  </svg>
                  <span class="group-hover:text-indigo-600">Empty States</span>              
                 </a>
-              </div>
-             
+
+                <a href="privacy.html" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /> 
+                  </svg>
+                  <span class="group-hover:text-indigo-600">Privacy</span>              
+                 </a>
+           
              <div class="pt-4 border-t px-2 text-xs uppercase tracking-wider text-slate-400 font-semibold">Settings</div>
              <a href="#" class="flex space-x-3 items-center p-2 hover:bg-slate-100 rounded-md text-slate-700 group transition">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -85,8 +91,9 @@
           </div>
         </div>
       </div>
-      <div class="md:ml-80 flex-1 p-4 overflow-y-auto overflow-x-hidden">
-        <div class="max-w-7xl mx-auto">
+
+      <div class="md:ml-64 flex-1 p-4 overflow-y-auto overflow-x-hidden">
+        <div class="lg:max-w-6xl mx-auto">
           
           <!-- Page Header -->
           <div class="py-5 border-b">
@@ -332,9 +339,9 @@
             </div>
             <div class="p-4">
               <ol role="list" class="marker:text-indigo-400 list-decimal list-inside space-y-3 text-slate-600">
-                <li>Clone the repository from the Github. <a href="https://github.com/bradtraversy/simple-tailwind-starter" class="text-indigo-600 hover:underline">https://github.com/bradtraversy/simple-tailwind-starter</a></li>
-                <li>Go inside the folder and run <span class="font-mono text-sm text-pink-500">npm install</span>.</li>
-                <li>Then watch for changes in the development by running the following command <span class="font-mono text-sm text-pink-500">npm run watch</span>.</li>
+                <li>Clone the repository from the Github. <span class="block bg-slate-50 rounded-md py-2 px-4 mt-1 font-mono text-sm text-pink-500">git clone git@github.com:mithicher/mtheme.git</span></li>
+                <li>Go inside the folder and run <span class="block bg-slate-50 rounded-md py-2 px-4 mt-1 font-mono text-sm text-pink-500">npm install</span></li>
+                <li>Then watch for changes in the development by running the following command <span class="block bg-slate-50 rounded-md py-2 px-4 mt-1 font-mono text-sm text-pink-500">npm run watch</span></li>
               </ol>
             </div>
           </div>
@@ -356,10 +363,9 @@
             </div>
           </div>
           <!-- ./Card with title -->
-
+ 
         </div>
       </div>
     </div>
- 
 </body>
 </html>
